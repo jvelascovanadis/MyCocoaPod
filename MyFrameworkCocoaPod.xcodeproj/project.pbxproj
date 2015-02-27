@@ -10,6 +10,8 @@
 		F18578C91AA0A23700E6CC25 /* MyFrameworkCocoaPod.h in Headers */ = {isa = PBXBuildFile; fileRef = F18578C81AA0A23700E6CC25 /* MyFrameworkCocoaPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F18578CF1AA0A23700E6CC25 /* MyFrameworkCocoaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18578C31AA0A23700E6CC25 /* MyFrameworkCocoaPod.framework */; };
 		F18578D61AA0A23700E6CC25 /* MyFrameworkCocoaPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18578D51AA0A23700E6CC25 /* MyFrameworkCocoaPodTests.m */; };
+		F1C0F1531AA0FD9F009C9226 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C0F1511AA0FD9F009C9226 /* Person.h */; };
+		F1C0F1541AA0FD9F009C9226 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F1521AA0FD9F009C9226 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		F18578CE1AA0A23700E6CC25 /* MyFrameworkCocoaPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkCocoaPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18578D41AA0A23700E6CC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18578D51AA0A23700E6CC25 /* MyFrameworkCocoaPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFrameworkCocoaPodTests.m; sourceTree = "<group>"; };
+		F1C0F1511AA0FD9F009C9226 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F1C0F1521AA0FD9F009C9226 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				F18578C81AA0A23700E6CC25 /* MyFrameworkCocoaPod.h */,
 				F18578C61AA0A23700E6CC25 /* Supporting Files */,
+				F1C0F1511AA0FD9F009C9226 /* Person.h */,
+				F1C0F1521AA0FD9F009C9226 /* Person.m */,
 			);
 			path = MyFrameworkCocoaPod;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18578C91AA0A23700E6CC25 /* MyFrameworkCocoaPod.h in Headers */,
+				F1C0F1531AA0FD9F009C9226 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C0F1541AA0FD9F009C9226 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +402,7 @@
 				F18578DB1AA0A23700E6CC25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F18578DC1AA0A23700E6CC25 /* Build configuration list for PBXNativeTarget "MyFrameworkCocoaPodTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +411,7 @@
 				F18578DE1AA0A23700E6CC25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
